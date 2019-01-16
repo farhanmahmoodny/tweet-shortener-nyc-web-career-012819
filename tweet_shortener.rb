@@ -29,10 +29,6 @@ end
 
 
 def builk_tweet_shortener(array)
-  count = 0
-  until count == array.length
-  word_substituter(array[count])
-  puts array[count]
-  count += 1
+
 end
 end
