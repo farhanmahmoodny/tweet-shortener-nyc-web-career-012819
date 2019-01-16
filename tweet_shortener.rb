@@ -1,5 +1,5 @@
 
-def dictionary (word)
+def dictionary
   words = {
     "hello" => "hi",
     "to" => "2",
