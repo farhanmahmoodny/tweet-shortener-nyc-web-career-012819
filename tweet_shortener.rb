@@ -15,24 +15,14 @@ def dictionary
 
 end
 
-# def word_substituter(string)
-#   array = string.split(" ")
-#   array.each_with_index do |word, index|
-#     dictionary.key.each do |i|
-#       if i = word
-#         array[index] = dictionary[i]
-# end
-# end
-# end
-def word_substituter (string)
+def word_substituter(string)
   array = string.split(" ")
-  array.each_with_index do |words,index|
-  dictionary.keys.each do |x|
-  if x == words 
-  array[index] = dictionary[x]
+  array.each_with_index do |word, index|
+    dictionary.keys.each do |i|
+      if i = word
+        array[index] = dictionary[i]
 end
 end
 end
-
 array.join(" ")
 end
