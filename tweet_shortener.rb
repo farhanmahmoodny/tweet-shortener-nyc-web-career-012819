@@ -27,7 +27,7 @@ def word_substituter(string)
   count = 0
  array.each do |wrd|
    dictionary(#{wrd})
-   new_string.push(#{wrd})
+   new_string.push(wrd)
  end
   new_string
 end
