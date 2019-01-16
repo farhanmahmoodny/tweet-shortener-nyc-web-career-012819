@@ -23,7 +23,7 @@ def word_substituter(string)
   array = string.split
   new_string = []
   count = 0
-  until count = array.length
+  until count == array.length
     dictionary(array[count])
     new_string.push(array[count])
     count += 1
