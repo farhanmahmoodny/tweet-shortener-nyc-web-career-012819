@@ -29,6 +29,15 @@ end
 
 
 def builk_tweet_shortener(array)
-
-end
+  array.each_with_index do |tweet, index|
+    new_tweet = tweet.split
+    new_tweet.each_with_index do |word, index|
+      dictionary.key.each do |i|
+        if i == word.downcase
+          new_tweet[index] = dictionary[i]
+        end
+      end
+    end
+    tweet = new_tweet.join(" ")
+    puts tweet
 end
