@@ -12,13 +12,7 @@ def dictionary (word)
     "at" => "@",
     "and" => "&"
   }
-  words.each do |key, value|
-    if word == key
-      return value
-    else 
-      return word
-    end
-  end
+
 end
 
 def word_substituter(string)
