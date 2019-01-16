@@ -25,10 +25,9 @@ def word_substituter(string)
   array = string.split
   new_string = []
   count = 0
-  while count < array.length
-    dictionary(array[count])
-    new_string.push(array[count])
-    count += 1
-  end
+ array.each do |wrd|
+   dictionary(wrd)
+   new_string.push(wrd)
+ end
   new_string
 end
