@@ -17,12 +17,6 @@ end
 
 def word_substituter(string)
   array = string.split
-  new_string = []
-  count = 0
-  until count == array.length
-  dictionary(array[count])
-  new_string.push(array[count])
-  count += 1
- end
-  new_string
+  array.each_with_index do |
+
 end
