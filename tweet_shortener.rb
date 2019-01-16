@@ -20,7 +20,7 @@ def word_substituter(string)
   array.each_with_index do |words, index|
     dictionary.keys.each do |x|
       if x = words
-        array[index] = dictionary[i]
+        array[index] = dictionary[x]
 end
 end
 end
