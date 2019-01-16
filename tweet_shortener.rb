@@ -30,5 +30,5 @@ def word_substituter(string)
     new_string.push(array[count])
     count += 1
   end
-  new_string.join(" ")
+  new_string
 end
