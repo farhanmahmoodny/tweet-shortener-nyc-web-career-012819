@@ -41,3 +41,4 @@ def builk_tweet_shortener(array)
     tweet = new_tweet.join(" ")
     puts tweet
 end
+end
