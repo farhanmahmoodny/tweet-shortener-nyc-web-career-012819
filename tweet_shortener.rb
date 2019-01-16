@@ -17,6 +17,7 @@ end
 
 def word_substituter(string)
   array = string.split
-  array.each_with_index do |
+  array.each_with_index do |word, index|
+    
 
 end
