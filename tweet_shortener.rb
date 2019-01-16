@@ -21,5 +21,7 @@ def word_substituter(string)
     dictionary.key.each do |i|
       if i = word
         array[index] = dictionary(i)
-
+end
+end
+end
 end
