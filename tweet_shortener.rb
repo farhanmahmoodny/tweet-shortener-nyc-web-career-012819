@@ -15,8 +15,6 @@ def dictionary (word)
   words.each do |key, value|
     if word == key
       return value
-    # else
-    #   return word
     end
   end
 end
