@@ -9,7 +9,7 @@ def dictionary (word)
     "for" => "4",
     "be" => "b",
     "you" => "u",
-    "at" => "@"
+    "at" => "@",
     "and" => "&"
   }
   words.each do |key, value|
