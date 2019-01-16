@@ -1,6 +1,6 @@
 
 def dictionary
-  words = {
+  hash = {
     "hello" => "hi",
     "to" => "2",
     "two" => "2",
