@@ -28,7 +28,7 @@ array.join(" ")
 end
 
 
-def builk_tweet_shortener(array)
+def buik_tweet_shortener(array)
   array.each_with_index do |tweet, index|
     new_tweet = tweet.split
     new_tweet.each_with_index do |word, index|
