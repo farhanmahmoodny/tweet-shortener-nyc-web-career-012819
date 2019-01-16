@@ -18,8 +18,8 @@ end
 def word_substituter(string)
   array = string.split(" ")
   array.each_with_index do |words, index|
-    dictionary.keys.each do |i|
-      if i = words
+    dictionary.keys.each do |x|
+      if x = words
         array[index] = dictionary[i]
 end
 end
